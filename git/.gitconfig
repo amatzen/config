@@ -1,0 +1,11 @@
+[user]
+	email = alexander@amatzen.dk
+	name = Alexander Matzen
+	signingkey = 9AA6D47C28866C973ED608A2A63CAD091A538E94
+[commit]
+	gpgsign = true
+[alias]
+	logs = log --show-signature
+	cis = commit -S
+[gpg]
+	program = gpg

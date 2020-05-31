@@ -1,0 +1,45 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "window.restoreWindows": "none",
+    "explorer.openEditors.visible": 0,
+    "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+    "liveSassCompile.settings.generateMap": false,
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "javascript": "javascriptreact",
+        "razor": "html",
+        "plaintext": "pug",
+        "twig": "html"
+    },
+    "files.associations": {
+        "*.twig.html": "twig",
+        "*.twig": "twig"
+    },
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.mypy_cache": true,
+        "**/.vscode": true,
+        "**/__pycache__": true
+    },
+    "window.titleBarStyle": "custom",
+    "editor.minimap.maxColumn": 80,
+    "git.confirmSync": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.welcome.enabled": false,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false,
+    "prettier.useEditorConfig": true,
+    "omnisharp.enableEditorConfigSupport": true
+}
+
