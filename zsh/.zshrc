@@ -103,3 +103,6 @@ source $ZSH/oh-my-zsh.sh
 
 ## NPM
 export PATH=/usr/local/share/npm/bin:$PATH
+
+## GPG TTY
+export GPG_TTY=$(tty)
