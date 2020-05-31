@@ -101,6 +101,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Custom
 
+## Homebrew
+export PATH=/home/linuxbrew/.linuxbrew/bin:$PATH
+
 ## NPM
 export PATH=/usr/local/share/npm/bin:$PATH
 
