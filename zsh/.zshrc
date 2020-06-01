@@ -101,16 +101,23 @@ source $ZSH/oh-my-zsh.sh
 
 # Custom
 
-## Homebrew
+## Aliases
+alias config_zsh = "nano ~/.zshrc"
+alias config_omzsh = "nano ~/.oh-my-zsh"
+alias config_git = "nano ~/.gitconfig"
+
+## Environment Variables
+
+### Homebrew
 export PATH=/home/linuxbrew/.linuxbrew/bin:$PATH
 
-## NVM
+### NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-## NPM
+### NPM
 export PATH=/usr/local/share/npm/bin:$PATH
 
-## GPG TTY
+### GPG TTY
 export GPG_TTY=$(tty)
