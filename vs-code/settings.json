@@ -33,13 +33,9 @@
     "window.titleBarStyle": "custom",
     "editor.minimap.maxColumn": 80,
     "git.confirmSync": false,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.welcome.enabled": false,
     "prettier.tabWidth": 4,
     "prettier.useTabs": false,
     "prettier.useEditorConfig": true,
     "omnisharp.enableEditorConfigSupport": true
 }
-
