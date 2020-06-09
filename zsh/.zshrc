@@ -121,3 +121,6 @@ export PATH=/usr/local/share/npm/bin:$PATH
 
 ### GPG TTY
 export GPG_TTY=$(tty)
+
+### GO
+export GOPATH=$HOME/go
