@@ -19,7 +19,6 @@
         "*.twig.html": "twig",
         "*.twig": "twig"
     },
-    "files.autoSave": "onFocusChange",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
